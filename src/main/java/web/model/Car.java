@@ -37,4 +37,13 @@ public class Car {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "id=" + id +
+                ", model='" + model + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
